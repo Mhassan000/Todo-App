@@ -1,4 +1,3 @@
-import React from 'react'
 import { useContext } from 'react';
 import { Context } from '../Context/ContextApi';
 import { AiFillDelete } from "react-icons/ai";

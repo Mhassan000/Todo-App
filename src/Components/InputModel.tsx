@@ -7,19 +7,9 @@ import { useContext } from 'react';
 import { Context } from '../Context/ContextApi';
 import uuid from 'react-uuid';
 
-
-
-
-
-
 const InputModel = () => {
-
-
     const { setToogle, toggle, arr, setArr, input, setInput } = useContext(Context)
-
-
     const inputHandler = (e: any) => {
-
         const date = new Date();
         let day = date.getDate();
         let month = date.getMonth() + 1;
@@ -76,7 +66,5 @@ const InputModel = () => {
         </div>
     )
 }
-
-
 
 export default InputModel

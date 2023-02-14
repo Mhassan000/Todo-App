@@ -5,9 +5,6 @@ import Todos from '@/Components/Todos'
 import { useContext } from 'react';
 import { Context } from  '../Context/ContextApi'
 
-
-
-
 export default function Home() {
   const {toggle, setToogle} = useContext(Context)
 
